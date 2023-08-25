@@ -5,25 +5,25 @@ import openai
 from llama_index import SimpleDirectoryReader
 from llama_index.memory import ChatMemoryBuffer
 import logging
-from opencensus.ext.azure.log_exporter import AzureEventHandler
+f#rom opencensus.ext.azure.log_exporter import AzureEventHandler
 
 logger = logging.getLogger("Streamlit app")
 logger.setLevel(logging.INFO)
 
 
 openai.api_key = st.secrets.openai_key
-st.header("John Lange's Personal Historian")
+st.header("Tombot")
 
 if "messages" not in st.session_state.keys():
     st.session_state.messages = [
-        {"role": "assistant", "content": "What would you like to know about John Lange?"}
+        {"role": "assistant", "content": "What would you like to know about Thomas Scarlato?"}
     ]
 
 
 @st.cache_resource(show_spinner=False)
 def load_data():
-    with st.spinner(text="Loading and indexing John's history - give me a moment"):
-        logger.addHandler(AzureEventHandler(connection_string=st.secrets.azure_connection_string))
+    with st.spinner(text="Loading and indexing Thomas Scarlato's resume and fb posts - give me a moment"):
+        #logger.addHandler(AzureEventHandler(connection_string=st.secrets.azure_connection_string))
         logger.info('startup starting')
         reader = SimpleDirectoryReader(input_dir="./data", recursive=True)
         docs = reader.load_data()
