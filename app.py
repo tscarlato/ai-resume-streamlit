@@ -5,7 +5,7 @@ import openai
 from llama_index import SimpleDirectoryReader
 from llama_index.memory import ChatMemoryBuffer
 import logging
-f#rom opencensus.ext.azure.log_exporter import AzureEventHandler
+#from opencensus.ext.azure.log_exporter import AzureEventHandler
 
 logger = logging.getLogger("Streamlit app")
 logger.setLevel(logging.INFO)
