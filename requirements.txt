@@ -2,5 +2,3 @@ streamlit
 openai
 llama-index
 nltk
-opencensus-ext-azure
-python >= 3.8

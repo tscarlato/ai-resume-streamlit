@@ -2,14 +2,21 @@ import streamlit as st
 from llama_index import VectorStoreIndex, ServiceContext, Document
 from llama_index.llms import OpenAI
 import openai
-from llama_index import SimpleDirectoryReader
+from llama_index import SimpleDirectoryReader, download_loader
 from llama_index.memory import ChatMemoryBuffer
+from llama_index.indices.struct_store import JSONQueryEngine
 import logging
+from pathlib import Path
+
 #from opencensus.ext.azure.log_exporter import AzureEventHandler
 
 logger = logging.getLogger("Streamlit app")
 logger.setLevel(logging.INFO)
 
+JSONReader = download_loader("JSONReader")
+
+loader = JSONReader()
+#documents = loader.load_data(Path('/Users/thomasscarlato/Documents/Code/ai_resume/ai-resume-streamlit/d.json'))
 
 openai.api_key = st.secrets.openai_key
 st.header("Tombot")
@@ -27,7 +34,7 @@ def load_data():
         logger.info('startup starting')
         reader = SimpleDirectoryReader(input_dir="./data", recursive=True)
         docs = reader.load_data()
-        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="You are an enthusastic assistant and an expert on John Lange. Assume that all questions are related to John Lange. Keep your answers based on facts - do not hallucinate facts."))
+        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="You are an enthusastic assistant and an expert on Thomas Scarlato. Assume that all questions are related to Thomas Scarlato. Keep your answers based on facts - do not hallucinate facts."))
         index = VectorStoreIndex.from_documents(docs, service_context=service_context)
         logger.info('startup complete')
         return index
