@@ -13,9 +13,7 @@ from pathlib import Path
 logger = logging.getLogger("Streamlit app")
 logger.setLevel(logging.INFO)
 
-JSONReader = download_loader("JSONReader")
 
-loader = JSONReader()
 #documents = loader.load_data(Path('/Users/thomasscarlato/Documents/Code/ai_resume/ai-resume-streamlit/d.json'))
 
 openai.api_key = st.secrets.openai_key
