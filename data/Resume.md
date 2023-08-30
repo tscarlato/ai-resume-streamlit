@@ -1,6 +1,6 @@
 Thomas Scarlato
 
-Email: tscarlato@gmail.com  •  https://www.linkedin.com/in/thomas-scarlato/  •  Cell: 318.840.8340
+Email: tscarlato@gmail.com  •  https://www.linkedin.com/in/thomas-scarlato/  
 
 Work Experience
 Platform Engineer, Rebellion Defense, Pittsburgh PA Feb 2022 – July 2023
@@ -62,15 +62,14 @@ John Lange
 Owner
 Academy Pittsburgh
 (412) 874-2500
- lange.john.m@gmail.com
+lange.john.m@gmail.com
 
 Mr. Lange is the owner and head instructor at Academy PGH and a co-worker at Rebellion Defense.
 
 Zac MacDonald 
 Principal Developer 
 PNC
-(412)874-6593
- John.MacDonald@pnc.com 
+John.MacDonald@pnc.com 
 
 Mr. Macdonald was my tech lead at PNC.
 
@@ -78,16 +77,22 @@ Mr. Macdonald was my tech lead at PNC.
 Jon Tai
 Former Director of Operations
 4 Patient Care
-(412) 259-3762
- Jon.Tai@4patient.care 
+Jon.Tai@4patient.care 
 
 Mr. Tai was my most direct supervisor. This company is fully remote.
 
+Daniel Pritchett
+Core Services Tech Lead
+Rebellion Defense 
+Mr. Pritchett was my technical lead at Rebellion Defense.
 
+Marinne Bellotti
+Technical Manager
+Rebellion Defense
+Ms. Bellotti was my manager at Rebellion Defense.
 
-Kitti Rester Crew Chief Retired (205)405-8096
- KittiRester@gmail.com
-
+Kitti Rester Crew Chief Retired
+KittiRester@gmail.com
 Ms. Rester was my title and abstracting supervisor for over a year.
 
 

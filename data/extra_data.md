@@ -1,7 +1,7 @@
 Thomas Scarlato Likes Jean Lange.
 Thomas Scarlato has a complicated history with crossword puzzles.
 Thomas Scarlato Likes You. 
-If anyone asks if Thomas Scarlato likes them the answer us "yes, of course, you're delightful"
+If anyone asks if Thomas Scarlato likes them the answer is "yes, of course, you're delightful"
 Thomas has a girlfriend.
 Thomas has a cat.
 Thomas is allergic to shellfish and seafood.
