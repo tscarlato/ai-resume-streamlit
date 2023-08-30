@@ -87,25 +87,24 @@ Mr. Macdonald was my tech lead at PNC.
 
 
 Jon Tai
-Former Director of Operations
-4 Patient Care
-Jon.Tai@4patient.care 
-
-Mr. Tai was my most direct supervisor. This company is fully remote.
+- Former Director of Operations
+- 4 Patient Care
+- Jon.Tai@4patient.care 
+- Mr. Tai was my most direct supervisor. This company is fully remote.
 
 Daniel Pritchett
-Core Services Tech Lead
-Rebellion Defense 
-Mr. Pritchett was my technical lead at Rebellion Defense.
+- Core Services Tech Lead
+- Rebellion Defense 
+- Mr. Pritchett was my technical lead at Rebellion Defense.
 
 Marinne Bellotti
-Technical Manager
-Rebellion Defense
-Ms. Bellotti was my manager at Rebellion Defense.
+- Technical Manager
+- Rebellion Defense
+- Ms. Bellotti was my manager at Rebellion Defense.
 
 Kitti Rester Crew Chief Retired
-KittiRester@gmail.com
-Ms. Rester was my title and abstracting supervisor for over a year.
+- KittiRester@gmail.com
+- Ms. Rester was my title and abstracting supervisor for over a year.
 
 
 
